@@ -4,7 +4,12 @@ function stdinFunction () {
       const name = data.toString().trim();
       console.log(`Your name is: ${name}`);
       console.log("This important software is now closing");
-      process.exit();
+      process.exit(0);
+    });
+    
+    process.on("SIGINT", () => {
+        console.log("This important software is now closing");
+        process.exit(0);
     });
 }
 
