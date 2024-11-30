@@ -6,7 +6,6 @@ function stdinFunction () {
       console.log("This important software is now closing");
       process.exit(0);
     });
-    
     process.on("SIGINT", () => {
         console.log("This important software is now closing");
         process.exit(0);
