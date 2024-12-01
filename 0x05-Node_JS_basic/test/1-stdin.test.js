@@ -1,4 +1,6 @@
+/* eslint-disable no-undef */
 const { expect } = require('chai');
+// eslint-disable-next-line no-unused-vars
 const sinon = require('sinon');
 
 const path = require('path');

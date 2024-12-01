@@ -28,7 +28,7 @@ function countStudents(path) {
         totalStudents += 1;
       }
     });
-    
+
     console.log(`Number of students: ${totalStudents}`);
 
     for (const [field, students] of Object.entries(studentsByField)) {
