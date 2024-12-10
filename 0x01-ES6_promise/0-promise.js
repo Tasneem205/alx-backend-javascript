@@ -5,4 +5,4 @@ function getResponseFromAPI() {
   return myProm;
 }
 
-exports.getResponseFromAPI = getResponseFromAPI;
+export default getResponseFromAPI;
