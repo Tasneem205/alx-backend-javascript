@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved
 import { uploadPhoto, createUser } from './utils.js';
 
 export default function handleProfileSignup() {
